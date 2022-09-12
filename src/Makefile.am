@@ -174,6 +174,7 @@ AVIAN_CORE_H = \
   core_io.h \
   core_memusage.h \
   cuckoocache.h \
+  flat-database.h \
   fs.h \
   httprpc.h \
   httpserver.h \
@@ -229,6 +230,7 @@ AVIAN_CORE_H = \
   txmempool.h \
   ui_interface.h \
   undo.h \
+  unordered_lru_cache.h \
   util.h \
   utilmoneystr.h \
   utiltime.h \
@@ -482,6 +484,8 @@ libavian_consensus_a_SOURCES = \
   prevector.h \
   primitives/block.cpp \
   primitives/block.h \
+  primitives/powcache.cpp \
+  primitives/powcache.h \
   primitives/transaction.cpp \
   primitives/transaction.h \
   pubkey.cpp \
@@ -494,6 +498,7 @@ libavian_consensus_a_SOURCES = \
   script/script_error.cpp \
   script/script_error.h \
   serialize.h \
+  span.h \
   support/cleanse.h \
   support/cleanse.cpp \
   tinyformat.h \
